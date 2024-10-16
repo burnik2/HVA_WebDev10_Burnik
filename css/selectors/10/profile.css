@@ -1,0 +1,33 @@
+html{
+    background-color: blanchedalmond;
+    display: block;
+    text-align: center;
+}
+.profile{
+    display: block;
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    font-size: medium;
+    border: 1pt black;
+    box-shadow: 2pt 2pt gray;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(234, 173, 98);
+h1{
+    color: aqua;
+}
+h1:hover{
+    color: black;
+
+}
+p.profile{
+    color: aquamarine;
+}
+}
+#profile-pic{
+    border-radius: 25%;
+}
+.about-me{
+    background-color: rgb(111, 173, 228);
+    padding: 1pt;
+}

@@ -1,0 +1,27 @@
+
+.calculator{
+    display: block;
+    border-radius: 20pt;
+    background-color: beige;
+    text-align: center;
+    margin: 20pt;
+    padding: 20pt;
+}
+h1{
+    margin: 20pt;
+}
+.number,.double,.square,.increment,.ans{
+    display: block;
+    text-align: center;
+    margin: 20pt;
+}
+#number,#double,#square,#increment,#ans{
+    display: inline-block;
+    text-align: center;
+    width: 80pt;
+    /* margin: 20pt; */
+}
+span{
+    display: inline;
+    border: 2px red;
+}

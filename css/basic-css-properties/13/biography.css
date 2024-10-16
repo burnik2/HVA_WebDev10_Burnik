@@ -1,0 +1,56 @@
+html{
+    background-color: cornsilk;
+    body{
+        background-color: rgb(235, 222, 202);
+        border: 2pt solid black;
+        padding: 10px;
+        margin: 10px;
+    }
+}
+.intro{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 5pt;
+    margin: 5pt;
+}
+.pic{
+    #image{
+        border-radius: 20%;
+        box-shadow: 3pt 3pt rgb(172, 161, 161);
+    }
+    display: block;
+}
+.name{
+    display: block;
+}
+h1{
+    color: rgb(238, 38, 38);
+    text-shadow: 2pt 2pt rgb(155, 152, 152);
+    font-size: 50px;
+}
+#quote{
+    background-color: rgb(72, 201, 201);
+    display: block;
+    padding: 5pt;
+    margin: 10pt;
+    text-align: center;
+    box-shadow: 3pt 3pt burlywood;
+    font-weight: bold;
+    #line{
+        font-style: italic;
+        font-size: 20px;
+    }
+    #person{
+        text-align: right;
+        margin-right: 15px;
+    }
+}
+.Body{
+    display: block;
+    padding: 10pt;
+    margin: 10pt;
+    background-color: rgb(226, 191, 138);
+    box-shadow: 2pt 2pt gray ;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}

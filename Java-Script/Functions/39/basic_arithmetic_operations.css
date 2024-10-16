@@ -1,0 +1,26 @@
+
+.calculator{
+    display: block;
+    border-radius: 20pt;
+    background-color: beige;
+    text-align: center;
+    margin: 20pt;
+    padding: 20pt;
+}
+h1{
+    margin: 20pt;
+}
+.number,.add,.sub,.multiply,.division{
+    display: block;
+    text-align: center;
+    margin: 20pt;
+}
+#number,#add,#sub,#multiply,#division{
+    display: inline-block;
+    text-align: center;
+    width: 80pt;
+    /* margin: 20pt; */
+}
+span{
+    border: 2px red;
+}

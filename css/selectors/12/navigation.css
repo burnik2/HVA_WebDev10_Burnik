@@ -1,0 +1,60 @@
+.navbar1 {
+    list-style-type: none;
+    background-color: rgb(181, 181, 250);
+    padding: 0%;
+    margin: 0%;
+    overflow: auto;
+}
+
+.second {
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+}
+
+.drpdwn {
+    position: absolute;
+    width: 110px;
+    background-color: rgb(239, 233, 233);
+    text-align: left;
+    box-shadow: 2px 2px 2px 0px black;
+}
+
+#f {
+    display: inline-block;
+    float: left;
+}
+
+#r {
+    display: inline-block;
+    float: right;
+    margin-right: 20pt;
+}
+
+#s {
+    display: none;
+    padding: 30pt;
+}
+
+#f:hover,
+#r:hover {
+    background-color: rgb(76, 76, 146);
+}
+
+#r:hover #s {
+    display: block;
+}
+
+#s:hover {
+    background-color: rgb(76, 76, 146);
+}
+
+a {
+    display: inline-block;
+    padding: 20pt;
+    color: black;
+}
+
+a:hover {
+    color: red;
+}

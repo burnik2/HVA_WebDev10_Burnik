@@ -1,0 +1,77 @@
+html{
+    scroll-behavior: smooth;
+    background-color: antiquewhite;
+}
+img{
+    border-radius: 50px;
+    border: 1px;
+    height: 200pt;
+    width: 200pt;
+    padding: 10px;
+    margin: 20px;
+}
+.nav{
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    background-color: rgb(229, 166, 89);
+    a{
+        display: inline-block;
+        padding: 20px;
+        color: rgb(6, 153, 153);
+        font-size: 18px;
+    }
+    a:hover{
+        background-color: rgb(120, 72, 8);
+        color: rgb(238, 20, 20);
+    }
+}
+h1{
+    padding-top: 50px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 40px;
+    color: darkcyan;
+}
+h2{
+    font-size: 30px;
+    color: cornflowerblue;
+}
+#hed{
+    text-decoration: underline;
+    text-align: center;
+}
+h3{
+    font-size: 25px;
+    color:deepskyblue;
+}
+#Home{
+    display: block;
+    padding: 40px;
+    margin: 10px;
+    background-color: rgb(237, 202, 111);
+    border-radius: 5%;
+    box-shadow: 2px 2px gray;
+}
+#posts{
+    display: block;
+    padding: 40px;
+    margin: 10px;
+    background-color: rgb(238, 165, 136);
+    border-radius: 5%;
+    box-shadow: 2px 2px rgb(136, 132, 132);
+}
+#comment{
+    display: none;
+}
+#com:hover #comment{
+    display: block;
+}
+#about{
+    background-color: greenyellow;
+    padding: 40px;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+}

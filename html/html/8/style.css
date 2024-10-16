@@ -1,0 +1,70 @@
+html{
+    scroll-behavior: smooth;
+  color: rgb(255, 255, 255);
+        background-image: url(background.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 100%;
+}
+body{
+  padding-bottom: 20px;
+}
+#Home,#AboutMe,#Education,#projects,#Contact,h1{
+  padding-top: 30px;
+}
+
+h1,h2{
+  color: chocolate;
+}
+#profile{
+  border: #131212;
+  border-radius: 50%;
+  transition: width 2s, height 2s;
+}
+#profile:hover{
+  position: absolute;
+  right: 10px;
+  width: 30%;
+  height: auto;
+}
+
+input,textarea{
+  border: #0a0a0a;
+  border-radius: 2pt;
+    background-color: antiquewhite;
+  margin: 2pt;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #0565f6;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    margin-bottom: 20px;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: rgb(7, 46, 241);
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a:active {
+    background-color: #0a0a0a;
+    color: white;
+  }

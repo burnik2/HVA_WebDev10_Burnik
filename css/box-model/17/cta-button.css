@@ -1,0 +1,24 @@
+html{
+    background-color: aliceblue;
+}
+.cta-button{
+    border: 2px solid #007BFF;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 10px 20px;
+    margin: 20px;
+    width: 150px;
+    height: 50px;
+    border-radius: 48%;
+    box-shadow: 3px 3px rgb(168, 220, 237);
+    background-color: aqua;
+    cursor: pointer;
+}
+.cta-button:hover{
+    background-color: aliceblue;
+    position: absolute;
+    top: 49.8%;
+    left:50.1%;
+}

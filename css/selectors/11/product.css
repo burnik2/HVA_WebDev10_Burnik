@@ -1,0 +1,74 @@
+html{
+    background-color: rgb(217, 245, 245);
+}
+h1{
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 20pt;
+    display: inline-block;
+    color: turquoise;
+    transition:  transform 4ms;
+}
+h1:hover{
+    transform: rotate(30deg);
+    color: rgb(4, 149, 101);
+}
+.product-card{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+div{
+    h3{
+        text-align: center;
+        color: cadetblue;
+    }
+    background-color: rgb(245, 248, 166);
+    width: 200pt;
+    height: 400pt;
+    padding: 5pt;
+    margin: 10pt;
+    border-radius: 5%;
+    box-shadow: 3pt 3pt rgb(146, 143, 143);
+ol{
+    display: block;
+    margin-left: 0%;
+    margin-right: auto;
+    color: rgb(3, 72, 72);
+    li{
+        color: rgb(5, 230, 230);
+    }
+}
+}
+div:hover{
+    background-color:rgb(196, 200, 81) ;
+    transform: rotatey(20deg)
+}
+#button{
+    position: relative;
+    bottom: 10px;
+    width: 80%;
+    top:auto ;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-bottom: 10pt;
+    display: block;     
+    border-width: .5pt;
+    background-color: aquamarine;
+    box-shadow: 2pt 2pt gray;
+    cursor: pointer;
+    padding: 5px;
+}
+#button:hover{
+    background-color: rgb(82, 209, 167);
+}
+}
+#image{
+    width: 150pt;
+    height: fit-content;
+    border-radius: 25%;
+    margin-top: 10pt; 
+    margin-left: auto;
+    margin-right: auto; 
+    display: block;   
+}

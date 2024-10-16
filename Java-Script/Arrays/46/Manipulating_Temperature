@@ -1,0 +1,47 @@
+// a. Define and Initialize the Array
+const temperatures = [-3, 14, 22, 5, -10];
+
+// b. Iterate and Log Using forEach()
+// Function expression
+temperatures.forEach(function(temperature) {
+  console.log("Celsius:", temperature);
+});
+
+// Arrow function
+temperatures.forEach(temperature => {
+  console.log("Celsius:", temperature);
+});
+
+// Convert to Fahrenheit and log
+temperatures.forEach(function(temperature) {
+  const fahrenheit = (temperature * 9/5) + 32;
+  console.log("Fahrenheit:", fahrenheit);
+});
+
+// Convert to Fahrenheit and log using arrow function
+temperatures.forEach(temperature => {
+  const fahrenheit = (temperature * 9/5) + 32;
+  console.log("Fahrenheit:", fahrenheit);
+});
+
+// c. Iterate and Create a New Modified Array Using map()
+// Function expression
+const temperaturesInFahrenheit = temperatures.map(function(temperature) {
+  return (temperature * 9/5) + 32;
+});
+console.log("Temperatures in Fahrenheit:", temperaturesInFahrenheit);
+
+// Arrow function
+const temperaturesInFahrenheit2 = temperatures.map(temperature => (temperature * 9/5) + 32);
+console.log("Temperatures in Fahrenheit (arrow function):", temperaturesInFahrenheit2);
+
+// d. Iterate and Create a New Filtered Array Using filter()
+// Function expression
+const belowFreezing = temperatures.filter(function(temperature) {
+  return temperature < 0;
+});
+console.log("Temperatures below freezing:", belowFreezing);
+
+// Arrow function
+const belowFreezing2 = temperatures.filter(temperature => temperature < 0);
+console.log("Temperatures below freezing (arrow function):", belowFreezing2);

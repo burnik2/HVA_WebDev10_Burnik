@@ -1,0 +1,30 @@
+html{
+    background-color: floralwhite;
+}
+h1{
+    text-align: center;
+    color: rgb(193, 176, 27);
+    text-decoration: underline;
+}
+.product{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#product{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid rgb(177, 115, 115);
+    background-color: burlywood;
+    box-shadow: 3pt 3pt bisque;
+    border-radius: 10%;
+}
+h2{
+    font-weight: bolder;
+    font-size: 24px;
+}
+p{
+    font-style: italic;
+    text-align: justify;
+    line-height: 1.8;
+    font-family: Arial, Helvetica, sans-serif;
+}

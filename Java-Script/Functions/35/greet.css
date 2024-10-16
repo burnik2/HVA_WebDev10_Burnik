@@ -1,0 +1,29 @@
+.card{
+    padding: 10px;
+    position: absolute;
+    display: block;
+    right: 50%;
+    top: 20%;
+    border: 1px black;
+    background-color: bisque;
+}
+#button{
+    position: relative;
+    left: 20%;
+    margin-top: 5px;
+    display: block;
+    width: 100px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(238, 238, 174);
+}
+#name{
+    padding: 5px;
+    margin: 10px;
+    color: coral;
+    background-color: rgb(251, 249, 241);
+}
+#welcome{
+    color: red;
+    padding: 5px;
+}
