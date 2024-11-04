@@ -1,0 +1,24 @@
+// a. Define the Array of People
+const people = [
+  { name: "Alice", age: 30 },
+  { name: "Bob", age: 25 },
+  { name: "Charlie", age: 35 },
+  { name: "David", age: 40 },
+];
+
+// b. Define the calculateAverageAge Function Using forEach
+function calculateAverageAge(people) {
+  let totalAge = 0;
+  let count = 0;
+
+  people.forEach((person) => {
+    totalAge += person.age;
+    count++;
+  });
+
+  return totalAge / count;
+}
+
+// c. Call the calculateAverageAge Function
+const averageAge = calculateAverageAge(people);
+console.log("Average Age:", averageAge);
