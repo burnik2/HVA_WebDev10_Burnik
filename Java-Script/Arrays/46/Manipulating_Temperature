@@ -1,47 +1,39 @@
-// a. Define and Initialize the Array
+// Define and initialize the array
 const temperatures = [-3, 14, 22, 5, -10];
 
-// b. Iterate and Log Using forEach()
-// Function expression
+// Iterate and log using forEach() (function expression)
 temperatures.forEach(function(temperature) {
-  console.log("Celsius:", temperature);
+  console.log(temperature);
 });
 
-// Arrow function
-temperatures.forEach(temperature => {
-  console.log("Celsius:", temperature);
-});
+// Iterate and log using forEach() (arrow function)
+temperatures.forEach(temperature => console.log(temperature));
 
-// Convert to Fahrenheit and log
+// Iterate and convert to Fahrenheit using forEach() (function expression)
 temperatures.forEach(function(temperature) {
   const fahrenheit = (temperature * 9/5) + 32;
-  console.log("Fahrenheit:", fahrenheit);
+  console.log(fahrenheit);
 });
 
-// Convert to Fahrenheit and log using arrow function
-temperatures.forEach(temperature => {
-  const fahrenheit = (temperature * 9/5) + 32;
-  console.log("Fahrenheit:", fahrenheit);
-});
+// Iterate and convert to Fahrenheit using forEach() (arrow function)
+temperatures.forEach(temperature => console.log((temperature * 9/5) + 32));
 
-// c. Iterate and Create a New Modified Array Using map()
-// Function expression
+// Iterate and create a new modified array using map() (function expression)
 const temperaturesInFahrenheit = temperatures.map(function(temperature) {
   return (temperature * 9/5) + 32;
 });
-console.log("Temperatures in Fahrenheit:", temperaturesInFahrenheit);
+console.log(temperaturesInFahrenheit);
 
-// Arrow function
-const temperaturesInFahrenheit2 = temperatures.map(temperature => (temperature * 9/5) + 32);
-console.log("Temperatures in Fahrenheit (arrow function):", temperaturesInFahrenheit2);
+// Iterate and create a new modified array using map() (arrow function)
+temperaturesInFahrenheit = temperatures.map(temperature => (temperature * 9/5) + 32);
+console.log(temperaturesInFahrenheit);
 
-// d. Iterate and Create a New Filtered Array Using filter()
-// Function expression
+// Iterate and create a new filtered array using filter() (function expression)
 const belowFreezing = temperatures.filter(function(temperature) {
   return temperature < 0;
 });
-console.log("Temperatures below freezing:", belowFreezing);
+console.log(belowFreezing);
 
-// Arrow function
-const belowFreezing2 = temperatures.filter(temperature => temperature < 0);
-console.log("Temperatures below freezing (arrow function):", belowFreezing2);
+// Iterate and create a new filtered array using filter() (arrow function)
+belowFreezing = temperatures.filter(temperature => temperature < 0);
+console.log(belowFreezing);
