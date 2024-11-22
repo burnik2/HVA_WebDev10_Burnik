@@ -23,7 +23,7 @@
     display: inline;
     border: 1px dashed #007BFF;
     padding: 5px;
-    width: 100px; /* Ignored for inline elements */
+    width: 100px; 
 }
 
 .inline-block-element-default {
